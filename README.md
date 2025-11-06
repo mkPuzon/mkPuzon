@@ -6,7 +6,7 @@ Hi there! I'm Maddie, I am a Computer Science:AI and Philosophy double-major wit
 
 ## Work Experience
 - **A.I. Research Assistant & Tutor @ Davis Institute for Artificial Intelligence (_October 2024 - Present_)**
-- **OWLab Summer Research Assistant @ Colby College (_May 2024 - Present_)**
+- **OWLab Summer Research Assistant @ Colby College (_May 2024 - Aug 2025_)**
 - **Computer Science Department Teaching Assistant @ Colby College (_Febuary 2023 - January 2025_)** 
 
 ## Project Highlight
