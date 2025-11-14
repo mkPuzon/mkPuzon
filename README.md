@@ -1,13 +1,7 @@
 # Madelyn Puzon - AI Engineer and Researcher
 Hi there! I'm Maddie, I am a Computer Science:AI and Philosophy double-major with research experience in training, evaluating, and optimizing machine learning models. I specialize in LLM fine-tuning, RAG pipelines, and NLP applications. Currently seeking a career that advocates and advances reliable and accurate AI systems.
 
-## Education	 			        		
-- B.A. Computer Science: AI Concentration & Philosophy | Colby College (_May 2026_)
-
-## Work Experience
-- **A.I. Research Assistant & Tutor @ Davis Institute for Artificial Intelligence (_October 2024 - Present_)**
-- **OWLab Summer Research Assistant @ Colby College (_May 2024 - Aug 2025_)**
-- **Computer Science Department Teaching Assistant @ Colby College (_Febuary 2023 - January 2025_)** 
+I'm currently working on fine-tuning and deploying content filtering LLMs using Docker. 
 
 ## Project Highlight
 
