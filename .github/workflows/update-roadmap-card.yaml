@@ -14,24 +14,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update Readme and Push
+      - name: Update roadmap card 
         run: |
-          TODAY=$(date +%Y%m%d)
+          python3 -c '
+          import re, datetime
+          today = datetime.datetime.now().strftime("%Y%m%d")
+          with open("README.md", "r") as f: content = f.read()
           
-          if grep -q "roadmap.sh/card" README.md; then
-            # Replace existing version parameter if it exists
-            sed -i -E "s|(roadmap\.sh/card/[^)]+)\?v=[0-9]+|\1?v=$TODAY|g" README.md
-            # Append version parameter if it doesn't exist (using ? for first param)
-            sed -i -E "s|(roadmap\.sh/card/[^?)]+)(\))|\1?v=$TODAY\2|g" README.md
-          fi
+          def update_url(m):
+              url = m.group(1)
+              url = re.sub(r"[?&]v=\d+", "", url)
+              sep = "&" if "?" in url else "?"
+              return f"({url}{sep}v={today})"
 
+          new_content = re.sub(r"\((https?://roadmap\.sh/card/[^)]+)\)", update_url, content)
+          
+          with open("README.md", "w") as f: f.write(new_content)
+          '
+
+      - name: Commit & Push
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           
           if [[ -n $(git status -s) ]]; then
             git add README.md
-            git commit -m "Update Roadmap.sh card cache-buster ($TODAY)"
+            git commit -m "Update Roadmap.sh card ($(date +%Y%m%d))"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit"
