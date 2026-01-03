@@ -1,19 +1,15 @@
-# Madelyn Puzon - AI Engineer and Researcher
-Hi there! I'm Maddie, I am a Computer Science:AI and Philosophy double-major with research experience in training, evaluating, and optimizing machine learning models. I specialize in LLM fine-tuning, RAG pipelines, and NLP applications. Currently seeking a career that advocates and advances reliable and accurate AI systems.
+# ˗ˏˋ ★ ˎˊ˗ Hi there!
+I'm Madelyn, a senior Computer Science and Philosophy double-major based in the USA.
 
-I'm currently working on fine-tuning and deploying content filtering LLMs using Docker. 
+I have 2+ years of research experience in training, evaluating, and optimizing machine learning models as well a number of personal projects covering fine-tuning LLMs and building RAG pipelines.
 
-## Project Highlight
+Currently seeking a career to apply my skills in deep learning, RAG, and fine-tuning to develop tailored AI solutions that outperform generalist models.
 
-### AI Understanding, Research, and Analytic glossary for AI education (AURA)
-Designed and developed the backend for an AI powered self-updating glossary from cutting edge research on artificial intelligence. The AURA system scrapes research papers, extracts key words and concepts, defines them within the contex of the paper, and integrates them into a PostgreSQL database.
+I'm currently working on building a self-updating research analysis tool, check out the [repo here](https://github.com/mkPuzon/AURA)!
 
-**Tech Stack**: Python, PostgreSQL, Ollama.
+[![roadmap.sh](https://roadmap.sh/card/wide/694ab70f7385df506dc4f9f6?variant=dark&roadmaps=python%2Cmachine-learning)](https://roadmap.sh)
 
-**Skills**: Data Pipeline Development, Natural Language Processing, Web Scraping, Database Design, LLM Integration, Shell Scripting.
-
-[Check out the repository here!](https://github.com/mkPuzon/AURA)
-# Get in Touch!
+## ✮⋆˙ Lets Get in Touch!
 **Email**: madelynkpuzon@gmail.com
 
 **LinkedIn**: https://www.linkedin.com/in/madelyn-puzon/
