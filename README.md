@@ -6,7 +6,7 @@ Currently seeking a career to apply my skills in deep learning, RAG, and fine-tu
 
 I'm currently working on dockerizing and deploying a self-updating research analysis tool, check out the [repo here](https://github.com/mkPuzon/AURA)! ˗ˏˋ ★ ˎˊ˗
 
-[![roadmap.sh](https://roadmap.sh/card/wide/694ab70f7385df506dc4f9f6?variant=dark&roadmaps=python%2Cmachine-learning&v=20260203)](https://roadmap.sh)
+[![roadmap.sh](https://roadmap.sh/card/wide/694ab70f7385df506dc4f9f6?variant=dark&roadmaps=python%2Cmachine-learning&v=20260204)](https://roadmap.sh)
 
 ## Let's Get in Touch
 **Email**: madelynkpuzon@gmail.com
