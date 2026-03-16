@@ -20,4 +20,4 @@ I'm currently working on dockerizing and deploying a self-updating research anal
 
 ⬩➤ [Portfolio site](https://mkpuzon.github.io/)
 
-[![roadmap.sh](https://roadmap.sh/card/wide/694ab70f7385df506dc4f9f6?variant=dark&roadmaps=python%2Cmachine-learning&v=20260315)](https://roadmap.sh)
+[![roadmap.sh](https://roadmap.sh/card/wide/694ab70f7385df506dc4f9f6?variant=dark&roadmaps=python%2Cmachine-learning&v=20260316)](https://roadmap.sh)
